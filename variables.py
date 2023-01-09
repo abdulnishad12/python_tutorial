@@ -11,5 +11,12 @@ def variables():
     print(complex_varible, type(complex_varible))
     print(complex_varible_2, type(complex_varible_2))
 
+#     different way of variable assignments
+    a=b=c=100
+    print(a,b,c)
+    x,y,z = 'a','b','c'
+    print(x,y,z)
+    print(x*3)
+
 if __name__ == '__main__':
     variables()
