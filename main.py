@@ -11,6 +11,8 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
+    roll_no = int(input("enter the roll no:"))
+    marks_student = int(input("enter the m7arks of the student:"))
+    user_name = input("enter username")
+    print(roll_no,marks_student,user_name)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
