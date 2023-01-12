@@ -11,6 +11,10 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+
+
+    student_list = ['Supreeth','Nishad Sir','Sharma','Singh','Sanketh']
+    print(student_list)
     user_name = str(input('username:'))
     password   = str(input('password:'))
     if (user_name == 'admin') and (password == 'admin'):
